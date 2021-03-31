@@ -46,7 +46,7 @@ class MorseTranslator {
 
     static sanitizeLetter(letter) {
         if (letter === ' ') return ''
-        if (!acceptableLetters.includes(letter)) return
+        if (!acceptableLetters.includes(letter.toLowerCase())) return
         return alphabetToMorse[letter]
     }
 

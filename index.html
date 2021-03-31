@@ -11,12 +11,14 @@
 </head>
 
 <body>
-  <h1>Morse translator</h1>
+  <h1 class="title">Morse translator</h1>
 
   <main>
-    <p>Entrez votre texte à traduire en morse</p>
-    <textarea id="mainInput" type="text" name="main" value=""></textarea>
-    <p id="result"></p>
+    <textarea id="mainInput" type="text" name="main" value="" placeholder="Entrez votre texte à traduire"></textarea>
+    <div class="result">
+      <p id="placeholder">Texte en morse : </p>
+      <p id="result"></p>
+    </div>
   </main>
 </body>
 

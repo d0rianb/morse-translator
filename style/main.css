@@ -9,3 +9,40 @@ body {
   font-family: "Roboto";
   font-weight: 400;
 }
+
+.title {
+  font-weight: 300;
+  margin: 1em .25em;
+}
+
+main {
+  margin: 1em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+main > * {
+    width: calc(50% - 2em);
+    min-width: 30%;
+    margin: 1em;
+    border-radius: 5px;
+}
+
+.result {
+  background-color: #eee;
+}
+
+.result > p {
+  margin: 0;
+  opacity: .5;
+  padding: 0.25em;
+}
+
+#placeholder {
+  user-select: none;
+}
+
+#mainInput {
+  border: solid 1px #eee ;
+}
