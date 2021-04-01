@@ -5,6 +5,6 @@ const result = document.querySelector('#result')
 
 input.addEventListener('input', (val) => {
     const text = input.value
-    const sanitizeText = MorseTranslator.translate(text)
-    result.innerText = sanitizeText
+    const translatedText = MorseTranslator.translate(text)
+    result.innerText = translatedText
 })
